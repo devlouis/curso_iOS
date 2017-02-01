@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75A9DFBE1E417FA100931631 /* TerceroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9DFBD1E417FA100931631 /* TerceroViewController.swift */; };
+		75A9DFC01E417FB600931631 /* CuartoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9DFBF1E417FB600931631 /* CuartoViewController.swift */; };
 		FBF0E5521E4160F600F2B26B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF0E5511E4160F600F2B26B /* AppDelegate.swift */; };
 		FBF0E5541E4160F600F2B26B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF0E5531E4160F600F2B26B /* ViewController.swift */; };
 		FBF0E5571E4160F700F2B26B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF0E5551E4160F700F2B26B /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		75A9DFBD1E417FA100931631 /* TerceroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TerceroViewController.swift; sourceTree = "<group>"; };
+		75A9DFBF1E417FB600931631 /* CuartoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CuartoViewController.swift; sourceTree = "<group>"; };
 		FBF0E54E1E4160F600F2B26B /* clase 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "clase 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF0E5511E4160F600F2B26B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBF0E5531E4160F600F2B26B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				FBF0E55A1E4160F700F2B26B /* LaunchScreen.storyboard */,
 				FBF0E55D1E4160F700F2B26B /* Info.plist */,
 				FBF0E5631E416EAD00F2B26B /* SegundaPantallaCodigoViewController.swift */,
+				75A9DFBD1E417FA100931631 /* TerceroViewController.swift */,
+				75A9DFBF1E417FB600931631 /* CuartoViewController.swift */,
 			);
 			path = "clase 2";
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBF0E5541E4160F600F2B26B /* ViewController.swift in Sources */,
+				75A9DFBE1E417FA100931631 /* TerceroViewController.swift in Sources */,
 				FBF0E5641E416EAD00F2B26B /* SegundaPantallaCodigoViewController.swift in Sources */,
+				75A9DFC01E417FB600931631 /* CuartoViewController.swift in Sources */,
 				FBF0E5521E4160F600F2B26B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +309,7 @@
 				FBF0E5621E4160F700F2B26B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

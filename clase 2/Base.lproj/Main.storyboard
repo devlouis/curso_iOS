@@ -159,10 +159,10 @@
             </objects>
             <point key="canvasLocation" x="830" y="931"/>
         </scene>
-        <!--View Controller-->
+        <!--Tercero View Controller-->
         <scene sceneID="yAb-wF-Dne">
             <objects>
-                <viewController id="eNV-EP-IHN" sceneMemberID="viewController">
+                <viewController id="eNV-EP-IHN" customClass="TerceroViewController" customModule="clase_2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="57P-oP-xLz"/>
                         <viewControllerLayoutGuide type="bottom" id="o7P-Yt-11M"/>
@@ -186,19 +186,29 @@
                                     <segue destination="Z0m-BI-mm8" kind="show" id="ZuU-b8-myd"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MXB-OY-9IX">
+                                <rect key="frame" x="97" y="356" width="180" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Lvd-7z-LFO"/>
+                    <connections>
+                        <outlet property="txtParametro" destination="MXB-OY-9IX" id="daM-O5-2pP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qPd-Tj-Gyp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2616.8000000000002" y="1329.9850074962519"/>
         </scene>
-        <!--View Controller-->
+        <!--Cuarto View Controller-->
         <scene sceneID="Yj8-vN-1DY">
             <objects>
-                <viewController id="Z0m-BI-mm8" sceneMemberID="viewController">
+                <viewController id="Z0m-BI-mm8" customClass="CuartoViewController" customModule="clase_2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TNL-pF-QHi"/>
                         <viewControllerLayoutGuide type="bottom" id="kyO-XZ-RrQ"/>
@@ -214,9 +224,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fs6-kA-sTl">
+                                <rect key="frame" x="130" y="352" width="127" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="lblParametro" destination="Fs6-kA-sTl" id="1DE-Ee-z1F"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pBQ-Et-tvo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -227,9 +247,12 @@
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="dh6-Xw-Z4f" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="NiP-z2-fLi">
+                    <tabBar key="tabBar" contentMode="center" id="NiP-z2-fLi">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                        <color key="barTintColor" red="0.1924996819" green="0.88763086930000001" blue="0.34532246360000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="QhP-SN-jAt" kind="relationship" relationship="viewControllers" id="toE-bx-ohR"/>
