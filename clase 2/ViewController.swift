@@ -9,10 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBAction func btnSiguiente(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "transicion", sender: sender)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // Do any additional setup after loading the view, typically from a nib.     
+        
+        
+        
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
